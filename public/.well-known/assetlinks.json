@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.sitonia.twa",
+        "sha256_cert_fingerprints": ["02:E8:3A:CD:33:A4:3A:90:E8:E0:E4:B4:EC:10:93:80:B7:F3:D2:74:36:7C:2E:EC:86:6A:A4:37:FB:14:D8:BA"]
+      }
+    }]
