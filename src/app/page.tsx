@@ -274,7 +274,7 @@ export default function Home() {
   }, [isPlaying]);
 
   return (
-    <div className="min-h-screen bg-slate-950 pb-28 text-slate-100 font-sans selection:bg-blue-500/30">
+    <div className="min-h-screen bg-slate-950 pb-40 md:pb-32 text-slate-100 font-sans selection:bg-blue-500/30">
 
       {/* Elemento de Áudio Oculto */}
       {currentTrack && (
