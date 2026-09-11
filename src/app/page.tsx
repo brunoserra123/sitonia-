@@ -274,7 +274,7 @@ export default function Home() {
   }, [isPlaying]);
 
   return (
-    <div className="min-h-screen bg-slate-950 pb-40 md:pb-32 text-slate-100 font-sans selection:bg-blue-500/30">
+    <div className="min-h-screen bg-slate-950 pb-48 sm:pb-40 md:pb-32 text-slate-100 font-sans selection:bg-blue-500/30">
 
       {/* Elemento de Áudio Oculto */}
       {currentTrack && (
@@ -345,7 +345,7 @@ export default function Home() {
         </div>
 
         {/* Action Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16">
 
           {/* YouTube Downloader */}
           <div className="glass-panel p-6 rounded-3xl transition-all hover:border-blue-500/30 group">
