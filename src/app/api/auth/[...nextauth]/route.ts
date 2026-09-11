@@ -25,7 +25,8 @@ export const authOptions: NextAuthOptions = {
       return token;
     },
     async session({ session, token }) {
-      session.accessToken = token.accessToken as string;
+      // Enviar o accessToken para o lado do cliente (para usarmos nas rotas da API)
+      (session as any).accessToken = token.accessToken;
       return session;
     },
   },

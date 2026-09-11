@@ -23,7 +23,7 @@ export async function POST(req: Request) {
     const info = await youtubedl(url, {
       dumpJson: true,
       noWarnings: true,
-      noCallHome: true,
+      callHome: false,
       noCheckCertificate: true,
     }) as any;
 
@@ -39,7 +39,7 @@ export async function POST(req: Request) {
       audioQuality: 0, // Qualidade Máxima VBR
       output: tempFilePath,
       noWarnings: true,
-      noCallHome: true,
+      callHome: false,
       noCheckCertificate: true,
     });
 
