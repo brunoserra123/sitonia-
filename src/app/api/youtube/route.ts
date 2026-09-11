@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       dumpJson: true,
       noWarnings: true,
       callHome: false,
-      noCheckCertificate: true,
+      noCheckCertificates: true,
     }) as any;
 
     const videoTitle = info.title || "Audio_YouTube";
@@ -40,7 +40,7 @@ export async function POST(req: Request) {
       output: tempFilePath,
       noWarnings: true,
       callHome: false,
-      noCheckCertificate: true,
+      noCheckCertificates: true,
     });
 
     // 3. Fazer Upload para o Google Drive
